@@ -1,3 +1,4 @@
 # shreya09
-**Check my new C program**
+Author-Shreya Sharma
+<br>
 This is my first Github repository
