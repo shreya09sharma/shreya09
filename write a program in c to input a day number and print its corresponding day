@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int day;
+    printf("enter a day");
+    scanf("%d",&day);
+    if(day==1)
+    {
+        printf("the day is monday");
+        
+    }
+    if(day==2)
+    {
+        printf("the day is tuesaday");
+        
+    }
+    if(day==3)
+    {
+        printf("the day is wednesday");
+        
+    }
+    if(day==4)
+    {
+        printf("the day is thurday");
+        
+    }
+    if(day==5)
+    {
+        printf("the day is friday");
+        
+    }
+     if(day==6)
+    {
+        printf("the day is saturday");
+        
+    }
+     if(day==7)
+    {
+        printf("the day is sunday");
+        
+    }
+   
+    return 0;
+}
