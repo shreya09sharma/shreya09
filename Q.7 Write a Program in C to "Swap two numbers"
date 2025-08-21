@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+   int a,b,temp;
+   printf("\n enter the value of a");
+   scanf("%d",&a);
+   printf("\n enter the value of c ");
+   scanf("%d",&b);
+   temp=a;
+   a=b;
+   b=temp;
+   printf("\na=%d",a);
+   printf("\nb=%d",b);
+   return 0;
+}
