@@ -1,0 +1,70 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int m;
+    printf("enter a month");
+    scanf("%d",&m);
+    if(m==1)
+    {
+        printf("the month is January");
+        
+    }
+    if(m==2)
+    {
+        printf("the month is February");
+        
+    }
+    if(m==3)
+    {
+        printf("the month is March");
+        
+    }
+    if(m==4)
+    {
+        printf("the month is April");
+        
+    }
+    if(m==5)
+    {
+        printf("the month is May");
+        
+    }
+     if(m==6)
+    {
+        printf("the month is June");
+        
+    }
+     if(m==7)
+    {
+        printf("the month is July");
+        
+    }
+     if(m==8)
+    {
+        printf("the month is August");
+        
+    }
+     if(m==9)
+    {
+        printf("the month is September");
+        
+    }
+     if(m==10)
+    {
+        printf("the month is October");
+        
+    }
+     if(m==11)
+    {
+        printf("the month is November");
+        
+    }
+      if(m==12)
+    {
+        printf("the month is December");
+        
+    }
+   
+    return 0;
+}
