@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    
+    printf("My name is Shreya Sharma");
+    printf("My course Btech in cse");
+    printf("My sap id 590027944");
+
+    return 0;
+}
