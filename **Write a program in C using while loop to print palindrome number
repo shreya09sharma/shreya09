@@ -1,0 +1,52 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int n;
+    int revnum=0;
+    printf("enter the number\n");
+    scanf("%d",&n);
+    while(n>0)
+    {
+        int d=n%10;
+        revnum=revnum*10+d;
+        n=n/10;
+    }
+    printf("\n %d %s",revnum, "is a reversed number");
+    
+
+    return 0;
+}
+
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int n;
+    int revnum=0;
+    printf("enter the number\n");
+    scanf("%d",&n);
+    int temp=n;
+    while(n>0)
+    {
+        int d=n%10;
+        revnum=revnum*10+d;
+        n=n/10;
+        
+        
+    }
+    printf("\n %d ",revnum );
+    if(revnum==temp)
+    {
+        printf("pallindrome number");
+    }
+    else
+    {
+        printf("not a pallindrome number");
+    }
+
+    
+
+    return 0;
+}
