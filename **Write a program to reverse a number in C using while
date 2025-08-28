@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int n;
+    printf("enter the number\n");
+    scanf("%d",&n);
+    while(n>0)
+    {
+        int d=n%10;
+        int revnum=revnum*10+d;
+        d=d/10;
+    }
+
+    return 0;
+}
